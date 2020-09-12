@@ -10,6 +10,7 @@
  * GIT: https://github.com/iambappa/Embedded-C
  * note: One problem observed- if power is removed from the RTC-DS3231 module (even when there is coin cell), 
  *        it is not able to maintain the time exactly. No problem if continuously powered.
+ *        I might have a bad battery
 */
 
 #include <Wire.h>
